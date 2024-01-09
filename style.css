@@ -7,3 +7,10 @@ body {
     min-height: 100vh;
     background: linear-gradient(#4A55A2,#7895CB,#24243e);
 }
+.main {
+    width: 350px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 25px;
+    box-shadow: 10px 20px 55px #000;
+}
