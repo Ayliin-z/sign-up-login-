@@ -62,11 +62,17 @@ input{
     outline: none;
     border-radius: 5px;
 }
-
+button :hover{
+    background: #4A55A2;
+}
 .login{
     height: 460px;
     background: #eee;
     border-radius: 60% / 8%;
     transform: translateY(-180px);
     transition: .8s ease-in-out;
+}
+.login label{
+    color: #4A55A2;
+    transform: scale(.6);
 }
